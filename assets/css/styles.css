@@ -83,39 +83,36 @@ h4#info_changing {
   border-left: 2px solid #7289da;
   border-right: 2px solid #7289da;
   color: #fff;
-  width: 90px;
-  height: 55px;
+  width: 92px;
+  height: 54px;
   line-height: 52px;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 3px;
+
+  position: relative;
 
   text-shadow: -0.5px 0 1px rgba(0,0,0, 0.4), 0 0.5px 1px rgba(0,0,0, 0.4), 0.5px 0 1px rgba(0,0,0, 0.4), 0 -0.5px 1px rgba(0,0,0, 0.4);
 }
 
-#clockdiv div > span:before{
-    content: "";
-    position: absolute;
+#clockdiv div > span:before,
+#clockdiv div > span:after{
+  content: "";
+  position: absolute;
   width: 90px;
   height: 55px;
-    left: 10px;
-    top: 10px;
-    border-left: 2px solid #7289da;
-  border-right: 2px solid #7289da;
-    transform: rotate(60deg);
-    border-radius: 5px;
+  left: 0;
+  top: 0;
+  border-left: 2px solid #7289da;
+  border-right: 2px solid #7289da;    
+  border-radius: 3px;
+}
+
+#clockdiv div > span:before {
+  transform: rotate(60deg);
 }
 
 #clockdiv div > span:after {
-    content: "";
-    position: absolute;
-  width: 90px;
-  height: 55px;
-    left: 10px;
-    top: 10px;
-    transform: rotate(-60deg);
-    border-left: 2px solid #7289da;
-  border-right: 2px solid #7289da;
-  border-radius: 5px;
+  transform: rotate(-60deg);
 }
 
 #clockdiv div:nth-child(2) > span {
@@ -408,6 +405,7 @@ hr.sep {
   max-width: 50px;
   margin: 0 auto;
   border-radius: 20px;
+  vertical-align: middle !important;
 }
 
 .clan-data ul li:nth-child(3) {
@@ -433,6 +431,7 @@ hr.sep {
 .table-responsive {
   margin-left: 10px;
   padding-left: 10px;
+  overflow-x: hidden;
 }
 
 .table-responsive.pc {
@@ -456,5 +455,6 @@ hr.sep {
     margin-left: 0;
     padding-left: 0;
     border: none;
+    overflow-x: auto;
   }
 }
