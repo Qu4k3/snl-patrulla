@@ -87,7 +87,7 @@ h4#info_changing {
   height: 54px;
   line-height: 52px;
   font-weight: bold;
-  border-radius: 3px;
+  border-radius: 5px;
 
   position: relative;
 
@@ -104,7 +104,7 @@ h4#info_changing {
   top: 0;
   border-left: 2px solid #7289da;
   border-right: 2px solid #7289da;    
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 #clockdiv div > span:before {

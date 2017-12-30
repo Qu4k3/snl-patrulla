@@ -1,14 +1,14 @@
 var schedule = [
     ['Dec 19 2016', 'Dec 26 2016'],
     ['Jan 1 2017', 'Jan 7 2017'],
-	 ['Feb 7 2017', 'Feb 10 2017'],
+    ['Feb 7 2017', 'Feb 10 2017'],
     ['Jun 25 2017', 'Jul 25 2017'],
     ['Jul 27 2017', 'Dec 25 2017'],
     ['Dec 26 2017', 'Dec 24 2018'],
     ['Dec 25 2016', 'Jul 25 2021']
 ];
 
-var deadline = 'December 23 2017 21:00:00 GMT+0100';
+var deadline = 'January 7 2018 21:00:00 GMT+0100';
 
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
@@ -24,7 +24,6 @@ function getTimeRemaining(endtime) {
     'seconds': seconds
   };
 }
-
 
 
 function initializeClock(id, endtime) {
@@ -61,6 +60,6 @@ for(var i=0; i<schedule.length; i++){
   var currentMs = Date.parse(new Date());
 
   if(endMs > currentMs && currentMs >= startMs ){
-      initializeClock('clockdiv', deadline);
+    initializeClock('clockdiv', deadline);
   }
 }
