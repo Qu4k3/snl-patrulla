@@ -413,15 +413,15 @@ hr.sep {
 }
 
 .clan-data ul li:nth-child(3) span:nth-child(1) {
-  color: green;
+  color: #5cb85c;
 }
 
 .clan-data ul li:nth-child(3) span:nth-child(2) {
-  color: yellow;
+  color: #f0ad4e;
 }
 
 .clan-data ul li:nth-child(3) span:nth-child(3) {
-  color: red;
+  color: #d9534f;
 }
 
 .table-striped>tbody>tr:nth-of-type(odd) {
@@ -442,8 +442,8 @@ hr.sep {
     border-left: 5px solid #116d56;
 }
 
-.table-responsive.aw {
-    border-left: 5px solid #dfd736;
+.table-responsive.dp {
+    border-left: 5px solid #9900FF;
 }
 
 .table-responsive.gp {
