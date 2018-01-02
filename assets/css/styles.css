@@ -305,6 +305,14 @@ hr.sep {
  text-align: center;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto !important;
+  text-align: center;
+}
+
 
 .td-image img {
   height: auto;
@@ -448,6 +456,10 @@ hr.sep {
 
 .table-responsive.gp {
     border-left: 5px solid #434cdd;
+}
+
+.table-responsive.ay {
+    border-left: 5px solid #BC8E51;
 }
 
 @media screen and (max-width: 767px) {
