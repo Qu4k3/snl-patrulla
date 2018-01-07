@@ -8,7 +8,7 @@ var schedule = [
     ['Dec 25 2016', 'Jul 25 2021']
 ];
 
-var deadline = 'January 7 2018 21:00:00 GMT+0100';
+var deadline = 'January 6 2018 22:00:00 GMT+0100';
 
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());

@@ -36,7 +36,16 @@ html {
   width: 100% !important;
 }
 
+.mvp {
+  position: relative;
+}
 
+.mvp i {
+  color: #FFD700;
+  font-size: 10px;
+  position: absolute;
+  margin-left:2px; 
+}
 
 body {
   color: #fff;
@@ -313,6 +322,32 @@ img {
   text-align: center;
 }
 
+.table {
+  margin-bottom: 0;
+}
+
+tr th {
+  text-align: center;
+}
+
+tr td {
+  text-align: center;
+}
+
+.win {
+  background-color: rgba(92, 184, 92, .6);
+  text-align: center;
+}
+
+.neutral {
+  background-color: rgba(240, 173, 78, .6);
+  text-align: center;
+}
+
+.loose {
+  background-color: rgba(217, 83, 79, .6);
+  text-align: center;
+}
 
 .td-image img {
   height: auto;
@@ -460,6 +495,10 @@ img {
 
 .table-responsive.ay {
     border-left: 5px solid #BC8E51;
+}
+
+.table-responsive.mc {
+    border-left: 5px solid #51C2FA;
 }
 
 @media screen and (max-width: 767px) {
